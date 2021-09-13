@@ -11,7 +11,7 @@ public class App
 {
     public static void main( String[] args ) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("What is the input string? ");
+        System.out.print("What is the input string? ");
 
         //records the next input from user
         String word = sc.nextLine();
@@ -23,3 +23,13 @@ public class App
         System.out.println( word + " has " + length + " characters." );
     }
 }
+
+/*  // possible alternative
+ *  a = 0;
+ *  counter = 0;
+ *  while (word.charAt(a) != ' ')
+ *  {
+ *      counter++;
+ *      a++;
+ *  }
+ */
